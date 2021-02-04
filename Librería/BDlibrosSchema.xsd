@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3org/2001/XMLSchema"
+version="0.1" xml:lang="es">
+    <xs:element name="Bdlibros">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libros" MaxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="autores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:group name="GrupoAutor">
+                                            <xs:sequence>
+                                                <xs:element name="apellido1" type="xs:string"/>
+                                                <xs:element name="apellido2" type="xs:string"/>
+                                                <xs:element name="nombre" type="xs:string"/>
+                                            </xs:sequence>
+                                        </xs:group>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="titulo" type="xs:integer"/>
+                            <xs:element name="editorial" type="xs:integer"/>
+                            <xs:element name="fechaPublicacion" type="xs:integer"/>
+                            <xs:element name="ISBN" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

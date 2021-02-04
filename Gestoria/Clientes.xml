@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE gestoria SYSTEM "gestoria.dtd">
+<gestoria>
+    <clientes> 
+        <sede codigo = 'A0000001'>
+            <direccion> Calle Genil </direccion>
+            <nombre> Enrique Piedra Venegas </nombre>
+            <fecha> 1/7/2011 </fecha>
+            <descripcion> sovente </descripcion>
+            <cliente codigo ='AAA-333'> 
+                <nViviendas> 2 </nViviendas>
+                <coste> 40000 </coste>
+                <resumen>  Buen Estado </resumen>
+                <plazo> 24/07/2015 </plazo>
+            </cliente>
+        </sede>
+    </clientes>   
+</gestoria>

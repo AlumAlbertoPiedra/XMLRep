@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms
+[
+<!ELEMENT Bdlibros (libros*)>
+<!ELEMENT libros (autores, titulo, editorial, fechaPublicación, ISBN)>
+<!ELEMENT libros (autores*)>
+<!ELEMENT autores (autor)>
+<!ELEMENT autores (autor*)>
+<!ELEMENT autor (apellido1, apellido2, nombre)>
+<!ELEMENT autores (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fechaPublicación (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+]>
+<e1:ejemplo xmlns:e1="https://www.youtube.com/">
+<Bdlibros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Anonimo </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> Libro de Job </e1:titulo>
+        <editorial>  </editorial>
+        <fechaPublicación> Siglo VI A.C </fechaPublicación>
+        <ISBN> 1 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Garcia </apellido1>
+                <apellido2> Marquez </apellido2>
+                <nombre> Gabriel </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> Cien años de soledad </e1:titulo>
+        <editorial>  </editorial>
+        <fechaPublicación> 1967 </fechaPublicación>
+        <ISBN> 2 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> 1 </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Homero </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> Odisea </e1:titulo>
+        <editorial>  </editorial>
+        <fechaPublicación> Siglo VII A.C </fechaPublicación>
+        <ISBN> 3 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Bradbury </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Ray </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2> </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> Farenheit451 </e1:titulo>
+        <editorial> Ballantine Books </editorial>
+        <fechaPublicación> 1953 </fechaPublicación>
+        <ISBN> 4 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Orwell </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> George </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> 1984 </e1:titulo>
+        <editorial> DeBolsillo </editorial>
+        <fechaPublicación> 1949 </fechaPublicación>
+        <ISBN> 5 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Melville </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Herman </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> Moby-Dick </e1:titulo>
+        <editorial> Richard Bentley </editorial>
+        <fechaPublicación> 1851 </fechaPublicación>
+        <ISBN> 6 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Twain </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Mark </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> Las aventuras de Huckleberry Finn </e1:titulo>
+        <editorial> Chatto and Windus </editorial>
+        <fechaPublicación> 1884 </fechaPublicación>
+        <ISBN> 7 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Baroja </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Pio </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> El árbol de la ciencia </e1:titulo>
+        <editorial> Alianza Editorial </editorial>
+        <fechaPublicación> 1911 </fechaPublicación>
+        <ISBN> 8 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Reuel </apellido1>
+                <apellido2> Tolkien </apellido2>
+                <nombre> Jhon Ronald </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> El señor de los anillos </e1:titulo>
+        <editorial> George Allen and Unwin </editorial>
+        <fechaPublicación> 1954 </fechaPublicación>
+        <ISBN> 9 </ISBN>
+    </libros>
+    <libros>
+        <autores>
+            <autor>
+                <apellido1> Brown </apellido1>
+                <apellido2>  </apellido2>
+                <nombre> Dan </nombre>
+            </autor>
+            <autor>
+                <apellido1>  </apellido1>
+                <apellido2>  </apellido2>
+                <nombre>  </nombre>
+            </autor>
+        </autores>
+        <e1:titulo> El codigo de Da Vinci </e1:titulo>
+        <editorial> Random House </editorial>
+        <fechaPublicación> 2003 </fechaPublicación>
+        <ISBN> 10 </ISBN>
+    </libros>
+</Bdlibros>
+</e1:ejemplo>

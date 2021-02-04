@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Editorial
+[
+<!ELEMENT Editorial (fechaInforme,descripcion,region)>
+<!ELEMENT region (Norte, Centro, Sur)>
+<!ELEMENT Norte (trimestre)>
+<!ELEMENT trimestre (T1, T2, T3, T4)>
+<!ELEMENT T1 (LibrosVendidos)>
+<!ELEMENT T2 (LibrosVendidos)>
+<!ELEMENT T3 (LibrosVendidos)>
+<!ELEMENT T4 (LibrosVendidos)>
+<!ELEMENT LibrosVendidos (#PCDATA)>
+<!ELEMENT Centro (trimestre)>
+<!ELEMENT Sur (trimestre)>
+<!ELEMENT fechaInforme (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+]>
+
+<Editorial>
+    <fechaInforme>21/07/2018</fechaInforme>
+    <descrip-cion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+
+    <region>
+        <Norte>
+            <trimestre>
+                <T1>
+                    <LibrosVendidos>24500</LibrosVendidos>
+                </T1>
+                <T2>
+                    <LibrosVendidos>45000</LibrosVendidos>
+                </T2>
+                <T3>
+                    <LibrosVendidos>NO_INFO</LibrosVendidos>
+                </T3>
+                <T4>
+                    <LibrosVendidos>19600</LibrosVendidos>
+                </T4>
+            </trimestre>
+        </Norte>
+        <Centro>
+            <trimestre>
+                <T1>
+                    <LibrosVendidos>1000</LibrosVendidos>
+                </T1>
+                <T2>
+                    <LibrosVendidos>NO_INFO</LibrosVendidos>
+                </T2>
+                <T3>
+                    <LibrosVendidos>20000</LibrosVendidos>
+                </T3>
+                <T4>
+                    <LibrosVendidos>NO_INFO</LibrosVendidos>
+                </T4>
+            </trimestre>
+        </Centro>
+        <Sur>
+        <trimestre>
+                <T1>
+                    <LibrosVendidos>22000</LibrosVendidos>
+                </T1>
+                <T2>
+                    <LibrosVendidos>18000</LibrosVendidos>
+                </T2>
+                <T3>
+                    <LibrosVendidos>NO_INFO</LibrosVendidos>
+                </T3>
+                <T4>
+                    <LibrosVendidos>30000</LibrosVendidos>
+                </T4>
+            </trimestre>
+        </Sur>
+    </region>
+</Editorial>

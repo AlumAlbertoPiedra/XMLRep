@@ -1,0 +1,14 @@
+<!ELEMENT gestoria (clientes)>
+<!ELEMENT clientes (sede*)>
+<!ELEMENT sede (direccion, codigo, nombre, fecha, descripcion, cliente*)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cliente (codigoCliente, nViviendas, coste, resumen, plazo)
+<!ELEMENT codigoCliente (#PCDATA)>
+<!ELEMENT nViviendas (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>
