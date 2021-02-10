@@ -1,12 +1,14 @@
-<!ELEMENT gestoria (clientes)>
-<!ELEMENT clientes (sede*)>
-<!ELEMENT sede (direccion, codigo, nombre, fecha, descripcion, cliente*)>
+<!ELEMENT gestoria (clientes*)>
+<!ELEMENT clientes (sede+)>
+<!ELEMENT sede (direccion+, , nombre, fecha, descripcion?, cliente+)>
+!!ATTLIST sede codigo CDATA #REQUIRED
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT codigo (#PCDATA)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT cliente (codigoCliente, nViviendas, coste, resumen, plazo)
+<!ELEMENT cliente (, nViviendas, coste, resumen?, plazo)
+<!ATTLIST cliente codigo CDATA #REQUIRED
 <!ELEMENT codigoCliente (#PCDATA)>
 <!ELEMENT nViviendas (#PCDATA)>
 <!ELEMENT coste (#PCDATA)>

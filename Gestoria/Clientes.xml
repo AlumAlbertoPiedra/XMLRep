@@ -4,6 +4,7 @@
     <clientes> 
         <sede codigo = 'A0000001'>
             <direccion> Calle Genil </direccion>
+            <direccion> Calle Genil </direccion>
             <nombre> Enrique Piedra Venegas </nombre>
             <fecha> 1/7/2011 </fecha>
             <descripcion> sovente </descripcion>

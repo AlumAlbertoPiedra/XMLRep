@@ -9,14 +9,14 @@ version="0.1" xml:lang="es">
                         <xs:sequence>
                             <xs:element name="sede">
                                 <xs:complexType>
-                                    <xs:attribute name="codigo" type="xs:string"/>
-                                        <xs:simpleType>
                                             <xs:sequence>
                                                 <xs:element name="direccion" type="xs:string"/>
                                                 <xs:element name="nombre" type="xs:string"/>
                                                 <xs:element name="fecha" type="xs:date"/>
                                                 <xs:element name="descripcion" type="xs:string"/>
                                             </xs:sequence>
+                                            <xs:attribute name="codigo" type="xs:string"/>
+                                        <xs:simpleType>
                                         </xs:simpleType>
                                     <xs:element name="cliente">
                                         <xs:complexType>
@@ -24,7 +24,7 @@ version="0.1" xml:lang="es">
                                                 <xs:simpleType>
                                                     <xs:sequence>
                                                         <xs:element name="nViviendas" type="xs:integer"/>
-                                                        <xs:element name="coste" type="xs:integer"/>
+                                                        <xs:element name="coste" type="xs:decimal"/>
                                                         <xs:element name="resumen" type="xs:string"/>
                                                         <xs:element name="plazo" type="xs:date"/>
                                                     </xs:sequence>

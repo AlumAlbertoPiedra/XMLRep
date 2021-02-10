@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE BDsms
+<!DOCTYPE BDlibros
 [
 <!ELEMENT Bdlibros (libros*)>
 <!ELEMENT libros (autores, titulo, editorial, fechaPublicación, ISBN)>
@@ -13,7 +13,7 @@
 <!ELEMENT fechaPublicación (#PCDATA)>
 <!ELEMENT ISBN (#PCDATA)>
 ]>
-<e1:ejemplo xmlns:e1="https://www.youtube.com/">
+
 <Bdlibros>
     <libros>
         <autores>
@@ -28,7 +28,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> Libro de Job </e1:titulo>
+        <titulo> Libro de Job </titulo>
         <editorial>  </editorial>
         <fechaPublicación> Siglo VI A.C </fechaPublicación>
         <ISBN> 1 </ISBN>
@@ -46,7 +46,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> Cien años de soledad </e1:titulo>
+        <titulo> Cien años de soledad </titulo>
         <editorial>  </editorial>
         <fechaPublicación> 1967 </fechaPublicación>
         <ISBN> 2 </ISBN>
@@ -64,7 +64,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> Odisea </e1:titulo>
+        <titulo> Odisea </titulo>
         <editorial>  </editorial>
         <fechaPublicación> Siglo VII A.C </fechaPublicación>
         <ISBN> 3 </ISBN>
@@ -82,7 +82,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> Farenheit451 </e1:titulo>
+        <titulo> Farenheit451 </titulo>
         <editorial> Ballantine Books </editorial>
         <fechaPublicación> 1953 </fechaPublicación>
         <ISBN> 4 </ISBN>
@@ -100,7 +100,7 @@
                 <nombre> </nombre>
             </autor>
         </autores>
-        <e1:titulo> 1984 </e1:titulo>
+        <titulo> 1984 </titulo>
         <editorial> DeBolsillo </editorial>
         <fechaPublicación> 1949 </fechaPublicación>
         <ISBN> 5 </ISBN>
@@ -118,7 +118,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> Moby-Dick </e1:titulo>
+        <titulo> Moby-Dick </titulo>
         <editorial> Richard Bentley </editorial>
         <fechaPublicación> 1851 </fechaPublicación>
         <ISBN> 6 </ISBN>
@@ -136,7 +136,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> Las aventuras de Huckleberry Finn </e1:titulo>
+        <titulo> Las aventuras de Huckleberry Finn </titulo>
         <editorial> Chatto and Windus </editorial>
         <fechaPublicación> 1884 </fechaPublicación>
         <ISBN> 7 </ISBN>
@@ -154,7 +154,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> El árbol de la ciencia </e1:titulo>
+        <titulo> El árbol de la ciencia </titulo>
         <editorial> Alianza Editorial </editorial>
         <fechaPublicación> 1911 </fechaPublicación>
         <ISBN> 8 </ISBN>
@@ -172,7 +172,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> El señor de los anillos </e1:titulo>
+        <titulo> El señor de los anillos </titulo>
         <editorial> George Allen and Unwin </editorial>
         <fechaPublicación> 1954 </fechaPublicación>
         <ISBN> 9 </ISBN>
@@ -190,7 +190,7 @@
                 <nombre>  </nombre>
             </autor>
         </autores>
-        <e1:titulo> El codigo de Da Vinci </e1:titulo>
+        <titulo> El codigo de Da Vinci </titulo>
         <editorial> Random House </editorial>
         <fechaPublicación> 2003 </fechaPublicación>
         <ISBN> 10 </ISBN>
