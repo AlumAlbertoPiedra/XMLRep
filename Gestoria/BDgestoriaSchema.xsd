@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3org/2001/XMLSchema"
-version="0.1" xml:lang="es">
+<xs:schema xmlns:xs="http://www.w3org/2001/XMLSchema" version="0.1" xml:lang="es">
     <xs:element name="Bdgestoria">
         <xs:complexType>
             <xs:sequence>
@@ -9,27 +8,26 @@ version="0.1" xml:lang="es">
                         <xs:sequence>
                             <xs:element name="sede">
                                 <xs:complexType>
-                                            <xs:sequence>
-                                                <xs:element name="direccion" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="fecha" type="xs:date"/>
-                                                <xs:element name="descripcion" type="xs:string"/>
-                                            </xs:sequence>
-                                            <xs:attribute name="codigo" type="xs:string"/>
-                                        <xs:simpleType>
-                                        </xs:simpleType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion" type="xs:string"/>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="fecha" type="xs:date"/>
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="codigo" type="xs:string"/>
+                                    <xs:simpleType>
+                                    </xs:simpleType>
                                     <xs:element name="cliente">
                                         <xs:complexType>
                                             <xs:attribute name="codigo" type="xs:string"/>
-                                                <xs:simpleType>
-                                                    <xs:sequence>
-                                                        <xs:element name="nViviendas" type="xs:integer"/>
-                                                        <xs:element name="coste" type="xs:decimal"/>
-                                                        <xs:element name="resumen" type="xs:string"/>
-                                                        <xs:element name="plazo" type="xs:date"/>
-                                                    </xs:sequence>
-                                                </xs:simpleType>
-                                            </xs:attribute>
+                                            <xs:simpleType>
+                                                <xs:sequence>
+                                                    <xs:element name="nViviendas" type="xs:integer"/>
+                                                    <xs:element name="coste" type="xs:decimal"/>
+                                                    <xs:element name="resumen" type="xs:string"/>
+                                                    <xs:element name="plazo" type="xs:date"/>
+                                                </xs:sequence>
+                                            </xs:simpleType>
                                         </xs:complexType>
                                     </xs:element>
                                 </xs:complexType>
@@ -40,3 +38,4 @@ version="0.1" xml:lang="es">
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+</xs:schema>

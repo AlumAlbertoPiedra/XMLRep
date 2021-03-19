@@ -16,4 +16,4 @@ xsi:noNamespaceSchemaLocation="BDgestoriaSchema.xsd">
             </cliente>
         </sede>
     </clientes>   
-</gestoria>
+</Bdgestoria>

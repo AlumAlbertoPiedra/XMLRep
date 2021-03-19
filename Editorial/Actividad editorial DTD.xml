@@ -18,8 +18,7 @@
 
 <Editorial>
     <fechaInforme>21/07/2018</fechaInforme>
-    <descrip-cion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
-
+    <descripcion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
     <region>
         <Norte>
             <trimestre>
